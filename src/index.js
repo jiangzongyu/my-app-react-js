@@ -1,12 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Test from './Test'
+// import Hook from './Hook'
+// import HookCompare from './HookCompare'
+// import UseContent from './UseContent'
+
+import FontColor from './fontColor'
+
+// import UseMemo from './useMemo'
+
+// import UseWinSize from "./UseWinSize";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/*<App />*/}
+    {/*<Test name='九月' />*/}
+    {/*<Hook />*/}
+    {/*<HookCompare />*/}
+    {/*  <UseContent />*/}
+      <FontColor/>
+    {/*  <UseMemo />*/}
+    {/*  <UseWinSize />*/}
   </React.StrictMode>,
   document.getElementById('root')
 );
