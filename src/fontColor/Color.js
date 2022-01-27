@@ -14,12 +14,11 @@ const reducer = (state, action) => {
 }
 
 export const Color = props => {
-    console.log(ColorContext)
-    console.log(props)
+    // console.log(ColorContext)
+    // console.log(props)
     const [color, dispatch] = useReducer(reducer, 'blue', undefined)
     return (
         <ColorContext.Provider value={{color, dispatch}}>
-            {123}
             {props.children}
         </ColorContext.Provider>
     )

@@ -5,6 +5,7 @@ import {Color} from "./Color";
 function FontColor () {
     return (
         <>
+            <h4>fontColor</h4>
            <Color>
                <ShowArea />
                <Buttons />

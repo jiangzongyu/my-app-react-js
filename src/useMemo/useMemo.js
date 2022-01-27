@@ -16,7 +16,7 @@ function UseMemo () {
 }
 
 function ChildComponent ({ name, children }) {
-    console.log(children)
+    // console.log(children)
 
     function changeXiaohong () {
         console.log('red coming')

@@ -1,0 +1,60 @@
+.route__container__notify {
+  position: relative;
+  overflow: hidden;
+  height: 40px;
+  color: #ed6a0c;
+  background-color: #fffbe8;
+}
+
+.route__container__wrap {
+  position: relative;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  height: 100%;
+  white-space: nowrap;
+  width: 100%;
+  animation: marquee 10s linear infinite;
+}
+
+.route__container__text {
+  position: absolute;
+  white-space: nowrap;
+  transition-timing-function: linear;
+}
+
+
+@keyframes shakeY {
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: rotate(-15deg);
+    transform-origin: center;
+  }
+
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform: rotate(15deg);
+    transform-origin: center;
+  }
+}
+
+.shakeY {
+  position: absolute;
+  /* width: 10px; */
+  height: 20px;
+  top: 400px;
+  left: 0;
+  /* transform-origin: center; */
+  animation: shakeY 5s infinite;
+}
+
+.is-animating {
+  transition: transform .4s ease-in-out
+}

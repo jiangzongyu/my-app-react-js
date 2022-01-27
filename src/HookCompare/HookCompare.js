@@ -16,6 +16,7 @@ export default function App() {
 
     return (
         <div>
+            <h3>HookCompare</h3>
             <div>
                 <Button onClickButton={handleClickButton1}>Button1</Button>
             </div>

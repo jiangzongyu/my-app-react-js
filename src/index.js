@@ -4,28 +4,21 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Test from './Test'
-// import Hook from './Hook'
+// import Index from './Index'
+import { Routers } from "./routers";
+import 'element-theme-default';
 // import HookCompare from './HookCompare'
-// import UseContent from './UseContent'
+// import UseContext from './UseContext'
 
-import FontColor from './fontColor'
-
+// import FontColor from './fontColor'
+// const { SyncLoopHook } = require('tapable')
 // import UseMemo from './useMemo'
 
 // import UseWinSize from "./UseWinSize";
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    {/*<App />*/}
-    {/*<Test name='九月' />*/}
-    {/*<Hook />*/}
-    {/*<HookCompare />*/}
-    {/*  <UseContent />*/}
-      <FontColor/>
-    {/*  <UseMemo />*/}
-    {/*  <UseWinSize />*/}
-  </React.StrictMode>,
+  <Routers />,
   document.getElementById('root')
 );
 
